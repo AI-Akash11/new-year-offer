@@ -71,3 +71,55 @@ main{
     font-size: 48px;
     margin-bottom: 48px;
 }
+
+/* banner-3 section styles */
+.b3-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 120px;
+    margin-bottom: 120px;
+    align-items: center;
+}
+.b3-content{
+    width: 60%;
+}
+.b3-title{
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+.b3-text{
+    font-size: 18px;
+    font-weight: 400;
+    opacity: .8;
+    margin-bottom: 48px;
+}
+.b3-btn{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 32px;
+}
+
+/* banner-4 section styles */
+.b4-section{
+    background-image: linear-gradient(#ff000010,#ff000000);
+    padding: 100px 380px;
+    border-radius: 16px;
+    margin-bottom: 120px;
+}
+.b4-text{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+.b4-btn{
+    background-color: #ff0000;
+    padding: 16px 32px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
